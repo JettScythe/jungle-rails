@@ -61,6 +61,7 @@ group :production do
 end
 
 group :test do
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'capybara'
   gem 'poltergeist'
   gem 'database_cleaner'
