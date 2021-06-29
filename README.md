@@ -2,6 +2,10 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Preview
+
+!["GIF preview of website"](https://github.com/JettScythe/jungle-rails/blob/master/docs/preview.gif?raw=true)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
@@ -31,3 +35,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 - PostgreSQL 9.x
 - Stripe
+- pg
+- bcrypt
+
+### Testing Dependencies
+
+- phantomjs
+- capybara
+- poltergeist
+- database_cleaner
